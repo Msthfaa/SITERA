@@ -1,32 +1,32 @@
 # SITERA – Sistem Terpadu Rekapitulasi Akademik
 
-SITERA adalah aplikasi **Node.js + Express.js** untuk membantu dosen dan admin kampus merekap dan mengelola nilai mahasiswa secara terpusat.
+SITERA adalah aplikasi **PHP Native** yang membantu dosen dan admin kampus merekap serta mengelola nilai mahasiswa secara terpusat.
 
 ---
 
 ## Fitur Utama
 
 * **Manajemen Data**
-  Menyimpan **Mahasiswa, Mata Kuliah, Kelas, dan Jurusan** di MySQL dengan relasi yang jelas.
+  Menyimpan **Mahasiswa, Mata Kuliah, Kelas, dan Jurusan** di **MySQL** dengan relasi yang jelas.
 
 * **Input & Rekap Nilai**
   Form penilaian **UTS, UAS, dan Tugas** terintegrasi yang otomatis tersimpan di tabel `penilaian`.
-  Rekap nilai per mahasiswa & per mata kuliah dapat diunduh atau ditampilkan langsung.
+  Rekap nilai per mahasiswa & per mata kuliah dapat diunduh (CSV/PDF) atau ditampilkan langsung.
 
-* **RESTful API**
-  Endpoint CRUD lengkap untuk setiap entitas—siap dipakai front‑end mana pun atau Postman.
+* **RESTful‑like Endpoint**
+  Skrip PHP terpisah untuk operasi CRUD masing‑masing entitas—mudah di‑integrasikan dengan Postman atau front‑end lain.
 
-* **Autentikasi**
-  Middleware **JWT** memastikan hanya pengguna terdaftar yang dapat mengakses dan mengubah data.
+* **Autentikasi Sederhana**
+  Sistem login berbasis session memastikan hanya pengguna terdaftar yang dapat mengakses dan memodifikasi data.
 
 * **Modular Codebase**
-  Struktur folder terpisah untuk **routes, controllers, models,** dan **views (EJS)** sehingga mudah dipelihara.
+  Struktur folder ringkas (config, models, controllers, views) yang memudahkan pemeliharaan dan pengembangan.
 
 ---
 
 ## Tech Stack
 
-> Node.js · Express.js · MySQL · Sequelize · JWT · EJS · Bootstrap
+> PHP Native · MySQL · Bootstrap 5 · JavaScript (vanilla)
 
 ---
 
