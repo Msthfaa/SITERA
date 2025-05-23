@@ -1,3 +1,8 @@
+## Kelompok
+- Musthofa Agung Distyawan (3124500031)
+- Farid Yanuar (3124500032)
+- Ahnaf Hafizh Putra Efendi (3124500033)
+
 # SITERA – Sistem Terpadu Rekapitulasi Akademik
 
 SITERA adalah aplikasi **PHP Native** yang membantu dosen dan admin kampus merekap serta mengelola nilai mahasiswa secara terpusat.
